@@ -1,0 +1,91 @@
+html {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-size: 16px;
+  font-family: "EB Garamond", serif;
+  background-color: #fafafa;
+  color: rgb(20, 20, 20);
+  height: 100%;
+}
+
+.content {
+  padding: 25px 100px;
+}
+
+.puzzle {
+  border: solid #777 2px;
+  background-color: #fcf5e5;
+  padding: 35px 40px;
+  margin-top: 25px;
+  overflow: auto;
+}
+
+.col1 table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  display: inline-table;
+}
+
+.col1 table tr td,
+.col1 table tr th {
+  border: solid 1px black;
+  text-align: center;
+  padding: 2px 6px;
+  background-color: white;
+}
+
+.col1 table thead tr th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.col1 table tbody tr td:first-child {
+  background-color: #eee;
+  font-weight: bold;
+  width: 20px;
+}
+
+.col1 table tbody tr td:not(:first-child) {
+  font-family: "Roboto Mono";
+}
+
+.col2 table {
+  margin-left: 30px;
+  display: inline-table;
+}
+
+.col2 table td {
+  text-align: center;
+  width: 25px;
+  height: 50px;
+}
+
+.col2 table.b td {
+  text-align: left;
+  font-size: 18px;
+}
+
+.col2 table.a td.n div {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: black;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 100%;
+}
+
+.col2 table.b span.e {
+  border: solid 1px black;
+  padding: 0px 3px;
+}
+
+.col1,
+.col2 {
+  float: left;
+  width: 100%;
+}
