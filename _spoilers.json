@@ -15,44 +15,40 @@
     },
     "hidden_theme": [
       "DO",
-      "RE",
-      "DO",
-      "FA",
-      "MI",
       "DO",
       "RE",
       "DO",
       "SOL",
-      "FA"
+      "FA",
+      "DO",
+      "DO'",
+      "LA",
+      "FA",
+      "MI",
+      "RE"
     ],
     "clued_themes": [
       {
-        "Work": "Violin Concerto in D major, Op. 77",
-        "Composer": "Johannes Brahms",
-        "Nationality": "🇩🇪",
-        "Dedication": "JOSEPH JOACHIM",
+        "Work": "Violin Concerto No. 2 in D minor, Op. 22",
+        "Composer": "Béla BARTOK",
+        "Nationality": "🇭🇺",
+        "Dedication": "ZOLTAN SZEKELY",
         "Extract": "S",
         "Theme": [
-          "D4",
-          "F#4",
-          "D4",
+          "G3",
+          "A3",
           "B3",
-          "A3",
-          "F#3",
-          "A3",
-          "D4",
           "F#4",
+          "B4",
           "A4",
-          "F#4",
-          "D4",
-          "A3",
-          "F#4",
-          "E4"
+          "D5",
+          "B4",
+          "F#4"
         ]
       },
       {
         "Work": "Violin Concerto in D major, Op. 61",
-        "Composer": "Ludwig van Beethoven",
+        "Composer": "Ludwig van BEETHOVEN",
         "Nationality": "🇩🇪",
         "Dedication": "FRANZ CLEMENT",
         "Extract": "T",
@@ -74,55 +70,10 @@
         ]
       },
       {
-        "Work": "Violin Concerto in D major, Op. 35",
-        "Composer": "Pyotr Tchaikovsky",
-        "Nationality": "🇷🇺",
-        "Dedication": "LEOPOLD AUER",
-        "Extract": "R",
-        "Theme": [
-          "F#4",
-          "E4",
-          "D4",
-          "A3",
-          "D4",
-          "E4",
-          "F#4",
-          "B4",
-          "G#4",
-          "A4",
-          "F#4",
-          "F#4",
-          "G4",
-          "F#4",
-          "E4"
-        ],
-        "_Alt_Themes": [
-          [
-            "F#4",
-            "E4",
-            "D4",
-            "F#4",
-            "A4",
-            "E4",
-            "F#4",
-            "E4",
-            "F#4",
-            "G4",
-            "G4",
-            "A4",
-            "B4",
-            "C#5",
-            "D5",
-            "E5",
-            "A4"
-          ]
-        ]
-      },
-      {
         "Work": "Violin Concerto in E minor, Op. 64",
-        "Composer": "Felix Mendelssohn",
+        "Composer": "Felix MENDELSSOHN",
         "Nationality": "🇩🇪",
-        "Extract": "A",
+        "Extract": "R",
         "Dedication": "FERDINAND DAVID",
         "Theme": [
           "B5",
@@ -141,39 +92,42 @@
         ]
       },
       {
-        "Work": "Symphonie Espagnole in D minor, Op. 21",
-        "Composer": "Édouard Lalo",
+        "Work": "Violin Concerto No. 2 in D minor, Op. 22",
+        "Composer": "Henryk WIENIAWSKI",
+        "Nationality": "🇨🇿",
+        "Dedication": "PABLO DE SARASATE",
+        "Index": 10,
+        "Extract": "A",
+        "Theme": [
+          "F4", "E4", "C#4", "D4", "A4", "F4", "A4", "F5", "C#5", "E5", "D5", "A4"
+        ]
+      },
+      {
+        "Work": "Violin Concerto No. 3 in B minor, Op. 61",
+        "Composer": "Camille SAINTSAENS",
         "Nationality": "🇫🇷",
         "Dedication": "PABLO DE SARASATE",
         "Extract": "D",
         "Theme": [
-          "E4",
-          "G4",
-          "F#4",
-          "A4",
-          "F#4",
-          "E4",
-          "G4",
-          "E4",
+          "C#4",
           "D4",
+          "A#3",
+          "B3",
           "F#4",
-          "A3",
-          "E4",
           "G4",
           "F#4",
-          "A4",
+          "E4",
           "F#4",
-          "E4",
-          "G4",
-          "E4",
+          "C#4",
           "D4",
-          "F#4",
-          "A3"
+          "A#3",
+          "B3",
+          "B4"
         ]
       },
       {
         "Work": "Violin Concerto",
-        "Composer": "Alban Berg",
+        "Composer": "Alban BERG",
         "Nationality": "🇦🇹",
         "Dedication": "MANON GROPIUS",
         "Extract": "I",
@@ -193,7 +147,7 @@
       },
       {
         "Work": "Violin Concerto in D minor, Op. 47",
-        "Composer": "Jean Sibelius",
+        "Composer": "Jean SIBELIUS",
         "Nationality": "🇫🇮",
         "Dedication": "FERENC VON VECSEY",
         "Extract": "V",
@@ -215,53 +169,11 @@
         ]
       },
       {
-        "Work": "Violin Concerto in A minor, Op. 53",
-        "Composer": "Antonín Dvořák",
-        "Nationality": "🇨🇿",
-        "Dedication": "JOSEPH JOACHIM",
-        "Extract": "A",
-        "Theme": [
-          "E5",
-          "A4",
-          "A5",
-          "E5",
-          "A4",
-          "A5",
-          "E5",
-          "C5",
-          "C5",
-          "E5",
-          "D5",
-          "C5",
-          "B4",
-          "A4"
-        ]
-      },
-      {
-        "Work": "Violin Concerto in B Minor, Op. 61",
-        "Composer": "Edward Elgar",
-        "Nationality": "🇬🇧",
-        "Dedication": "FRITZ KREISLER",
-        "Extract": "R",
-        "Theme": [
-          "D5",
-          "C5",
-          "D#5",
-          "D5",
-          "A#4",
-          "F4",
-          "G4",
-          "A4",
-          "A#4",
-          "D5"
-        ]
-      },
-      {
         "Work": "Violin Concerto No. 1 in G minor, Op. 26",
-        "Composer": "Max Bruch",
+        "Composer": "Max BRUCH",
         "Nationality": "🇩🇪",
         "Dedication": "JOSEPH JOACHIM",
-        "Extract": "I",
+        "Extract": "A",
         "Theme": [
           "D5",
           "C5",
@@ -315,46 +227,117 @@
             "B5"
           ]
         ]
-      }
-    ],
-    "unused": [
+      },
       {
-        "Work": "Violin Concerto No. 2 in D minor, Op. 22",
-        "Composer": "Béla Bartók",
-        "Nationality": "🇭🇺",
-        "Dedication": "ZOLTAN SZEKELY",
+        "Work": "Violin Concerto in B Minor, Op. 61",
+        "Composer": "Edward ELGAR",
+        "Nationality": "🇬🇧",
+        "Dedication": "FRITZ KREISLER",
+        "Index": 7,
+        "Extract": "R",
         "Theme": [
-          "G3",
-          "A3",
-          "B3",
-          "F#4",
-          "B4",
-          "A4",
           "D5",
-          "B4",
-          "F#4"
+          "C5",
+          "D#5",
+          "D5",
+          "A#4",
+          "F4",
+          "G4",
+          "A4",
+          "A#4",
+          "D5"
         ]
       },
       {
-        "Work": "Violin Concerto No. 3 in B minor, Op. 61",
-        "Composer": "Camille Saint-Saëns",
-        "Nationality": "🇫🇷",
-        "Dedication": "PABLO DE SARASATE",
+        "Work": "Violin Concerto in A minor, Op. 53",
+        "Composer": "Antonín DVORAK",
+        "Nationality": "🇨🇿",
+        "Dedication": "JOSEPH JOACHIM",
+        "Extract": "I",
         "Theme": [
-          "C#4",
+          "E5",
+          "A4",
+          "A5",
+          "E5",
+          "A4",
+          "A5",
+          "E5",
+          "C5",
+          "C5",
+          "E5",
+          "D5",
+          "C5",
+          "B4",
+          "A4"
+        ]
+      },
+      {
+        "Work": "Violin Concerto in D major, Op. 35",
+        "Composer": "Pyotr TCHAIKOVSKY",
+        "Nationality": "🇷🇺",
+        "Dedication": "LEOPOLD AUER",
+        "Extract": "U",
+        "Theme": [
+          "F#4",
+          "E4",
           "D4",
-          "A#3",
-          "B3",
+          "A3",
+          "D4",
+          "E4",
+          "F#4",
+          "B4",
+          "G#4",
+          "A4",
+          "F#4",
           "F#4",
           "G4",
           "F#4",
-          "E4",
-          "F#4",
-          "C#4",
+          "E4"
+        ],
+        "_Alt_Themes": [
+          [
+            "F#4",
+            "E4",
+            "D4",
+            "F#4",
+            "A4",
+            "E4",
+            "F#4",
+            "E4",
+            "F#4",
+            "G4",
+            "G4",
+            "A4",
+            "B4",
+            "C#5",
+            "D5",
+            "E5",
+            "A4"
+          ]
+        ]
+      },
+      {
+        "Work": "Violin Concerto in D major, Op. 77",
+        "Composer": "Johannes BRAHMS",
+        "Nationality": "🇩🇪",
+        "Dedication": "JOSEPH JOACHIM",
+        "Extract": "S",
+        "Theme": [
           "D4",
-          "A#3",
+          "F#4",
+          "D4",
           "B3",
-          "B4"
+          "A3",
+          "F#3",
+          "A3",
+          "D4",
+          "F#4",
+          "A4",
+          "F#4",
+          "D4",
+          "A3",
+          "F#4",
+          "E4"
         ]
       }
     ]

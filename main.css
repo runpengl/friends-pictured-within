@@ -25,7 +25,7 @@ body {
 
 .col1 table {
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-right: 40px;
   display: inline-table;
 }
@@ -61,7 +61,7 @@ body {
 .col2 table td {
   text-align: center;
   width: 25px;
-  height: 50px;
+  height: 60px;
 }
 
 .col2 table.b td {
@@ -81,7 +81,7 @@ body {
 
 .col2 table.b span.e {
   border: solid 1px black;
-  padding: 0px 3px;
+  padding: 0;
 }
 
 .col1,
