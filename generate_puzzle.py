@@ -129,7 +129,7 @@ def generate_puzzle(tm_defs, clues_data, dedications):
 
     clues_data = sorted(
         clues_data,
-        key=lambda x: x['Dedication'].split(' ')[1] + x['Composer'].split(' ')[-1]
+        key=lambda x: x['Dedication'].split(' ')[-1] + x['Composer'].split(' ')[-1]
     )
     for (i, clue_item) in enumerate(clues_data):
         variations = []
@@ -140,18 +140,21 @@ def generate_puzzle(tm_defs, clues_data, dedications):
                 suffix += _note[-1]
                 _note = _note[0:-1]
             variations.append(f'{solfege_to_variation[_note]}{suffix}')
-            notes_html = "".join([f'<td class=n><div>{v}</div></td>' for v in variations])
+            notes_html = "".join([
+                f'<td class=n><div data-r="{clue_item["Rhythm"][j]}">{v}</div></td>'
+                for (j, v) in enumerate(variations)
+            ])
 
         dedication = clue_item['Dedication']
         enumeration = list(dedication)
         index = clue_item.get("Index", dedication.index(clue_item['Extract']))
         for (j, c) in enumerate(enumeration):
             if c != ' ':
-                enumeration[j] = '<span>&nbsp;_&nbsp;</span>'
+                enumeration[j] = '<input maxlength=1 class=l />'
             else:
-                enumeration[j] = '<span>&nbsp;&nbsp;</span>'
+                enumeration[j] = '<span>&nbsp;</span>'
             if j == index:
-                enumeration[j] = '<span class=e>&nbsp;_&nbsp;</span>'
+                enumeration[j] = '<input maxlength=1 class=e />'
 
         clues_html.append(f'<tr>{notes_html}</tr>')
         extraction_html.append(f'<tr><td>{"".join(enumeration)}</td></tr>')
@@ -173,7 +176,9 @@ if __name__ == '__main__':
             tm_data.append(f.readlines())
 
     for (i, clue) in enumerate(theme_data['clued_themes']):
-        clue['TransposedTheme'] = transpose(theme=clue['Theme'], first_note=theme_data['hidden_theme'][i])
+        assert len(clue['Theme']) == len(clue['Rhythm'])
+        clue['Rhythm'][0] = theme_data['hidden_theme']['Rhythm'][i]
+        clue['TransposedTheme'] = transpose(theme=clue['Theme'], first_note=theme_data['hidden_theme']['Tones'][i])
         print("-".join(clue['TransposedTheme']))
 
     generate_puzzle(
