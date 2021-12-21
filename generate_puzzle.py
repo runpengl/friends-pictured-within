@@ -148,6 +148,7 @@ def generate_puzzle(tm_defs, clues_data, dedications):
         dedication = clue_item['Dedication']
         enumeration = list(dedication)
         index = clue_item.get("Index", dedication.index(clue_item['Extract']))
+        assert dedication[index] == clue_item['Extract']
         for (j, c) in enumerate(enumeration):
             if c != ' ':
                 enumeration[j] = '<input maxlength=1 class=l />'
